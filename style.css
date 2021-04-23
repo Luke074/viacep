@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background: #FBAB18;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+}
+.title {
+  font: bold 2rem serif;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.container input {
+  border: 1px solid #111;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  box-shadow: 0 0 5px black;
+}
